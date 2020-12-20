@@ -8,28 +8,15 @@ namespace Open_Lab_11._00
 {
     class Library
     {
-        private int numberOfBooks;
-        private int numberOfStudents;
+        
 
         public List<string> sutdentsList = new List<string>() { "John", "Poul" };
         public List<Book> booksList = new List<Book>();
 
 
-        public int NumberOfBooks
+        public Library() : base ()
         {
-            get { return numberOfBooks; }
-            set { numberOfBooks = value; }
-        }
-        public int NumberOfStudents
-        {
-            get { return numberOfStudents; }
-            set { numberOfStudents = value; }
-        }
-
-        public Library() : base()
-        {
-            numberOfBooks = -1;
-            numberOfStudents = -1;
+          
 
             booksList = new List<Book>
             {
@@ -43,7 +30,7 @@ namespace Open_Lab_11._00
 
         public override string ToString()
         {
-            return $"{numberOfBooks}, {numberOfStudents}, {booksList}";
+            return $" {booksList}";
         }
 
 
