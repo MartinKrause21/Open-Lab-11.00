@@ -6,7 +6,7 @@ namespace Open_Lab_11._00
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Worlddd!");
+            Console.WriteLine("Hello Worlddddd!");
         }
     }
 }
